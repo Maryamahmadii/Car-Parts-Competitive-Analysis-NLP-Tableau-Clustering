@@ -22,11 +22,11 @@ The first significant step in the analysis was to employ Natural Language Proces
 
 After categorizing products, we dedicated efforts to preprocessing the dataset for enhanced data quality and readiness for in-depth analysis.
 
-### Extracting Stock Numbers
+#### 1- Extracting Stock Numbers
 
 We parsed stock information from strings to numeric format, enabling a more straightforward quantitative analysis of product availability.
 
-### Delivery Date Cleaning
+#### 2- Delivery Date Cleaning
 
 A series of steps were undertaken to ensure the delivery date information was accurate and consistent:
 
@@ -36,20 +36,20 @@ A series of steps were undertaken to ensure the delivery date information was ac
 - **Format Standardization:** Implemented measures to ensure delivery date ranges were consistently formatted across the dataset.
 - **Delivery Days Calculation:** Added columns to represent the number of days from order to delivery, improving the dataset's utility for further analysis.
 
-### Column Exploration and Binary Indicators
+#### 3- Column Exploration and Binary Indicators
 
 Insights into promotional activities, warranty offerings, and purchase frequencies were gleaned through:
 
 - **Unique Value Analysis:** Reviewed "Free Days" and "Past Month Purchases" columns for unique entries to detect any inconsistencies.
 - **Binary Indicators Creation:** Introduced binary columns to flag products with promotions, warranties, and those frequently purchased, streamlining future analysis.
 
-#### Imputing Missing Values
+#### 4- Imputing Missing Values
 For the price column, which had 12 missing entries, values were imputed using the median price of each product's respective subcategory. This approach was chosen to maintain the integrity of the dataset while addressing the missing data in a manner that reflects the typical pricing structure within each subcategory.
 
-#### Outlier Removal
+#### 5- Outlier Removal
 To ensure the robustness of the analysis, outliers were identified and removed from the dataset. This step was critical in preventing skewed results and ensuring that the statistical analysis and clustering would be based on representative data.
 
-#### Correlation Analysis
+#### 6- Correlation Analysis
 A heatmap of correlations between numerical variables was generated to explore the relationships within the data. Key findings include:
 - **Price and Reviews:** A slight negative correlation (-0.054) suggests a weak and potentially insignificant relationship, where higher-priced items slightly tend to have fewer reviews.
 - **Days to Earliest/Latest Delivery:** A very strong positive correlation (0.884) highlights the expected relationship between the days to earliest and latest delivery, which is expected, as for most of the products the values are the same.
