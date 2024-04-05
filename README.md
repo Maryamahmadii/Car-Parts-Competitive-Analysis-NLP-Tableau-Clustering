@@ -58,7 +58,7 @@ A heatmap of correlations between numerical variables was generated to explore t
 - **Frequently Purchased and Number of Reviews:** The positive correlation (0.198) indicates that items frequently purchased tend to garner more reviews. This relationship is intuitive but weak, potentially due to the broad categorization of "frequently purchased" items based on a threshold of 50+ purchases in the last month without precise purchase counts.
 
 These correlations reveal both expected and complex relationships within the dataset, emphasizing the nuanced nature of consumer behavior and the multifaceted factors influencing purchasing decisions.
-![Correlation Heatmap](./Code-Results_Images/Correlation Heatmap.png)
+![Correlation Heatmap](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Correlation%20Heatmap.png)
 
 ### Logistic Regression Analysis
 
