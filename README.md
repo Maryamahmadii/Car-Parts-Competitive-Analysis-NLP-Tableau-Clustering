@@ -112,7 +112,7 @@ In preparing the dataset for clustering, I made the decision to focus on specifi
 K-means clustering was performed to segment the dataset into distinct groups based on their characteristics. Principal Component Analysis (PCA) was utilized for dimensionality reduction to facilitate visualization of the clusters.
 
 #### Selection of K
-
+![Best K](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Best%20K%20Selection.png)
 The optimal number of clusters (K) was determined by evaluating the Silhouette Score for different numbers of clusters, ranging from 3 to 12. The analysis identified **K=5** as the best choice based on the highest silhouette score obtained.
 
 #### Clustering Metrics
@@ -123,7 +123,7 @@ The clustering model's effectiveness was evaluated using several metrics:
 - **Silhouette Score:** 0.3665299220358104, reflecting moderate cluster cohesion and separation.
 
 ### Cluster Analysis Interpretation
-
+![Clustering Visualization using PCA](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Clustering%20Visual.png)
 The clustering revealed distinct segments within the dataset, each with unique characteristics and market positions:
 
 #### Cluster 0: "Basic Needs, Low Engagement"
