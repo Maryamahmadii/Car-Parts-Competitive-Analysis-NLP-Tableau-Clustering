@@ -1,0 +1,2 @@
+# Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering
+Applied NLP for automated categorization of products, aligning Amazon items with CARiD’s category framework. Conducted significant statistical analysis to unearth factors influencing product popularity and sales. Segmented automotive products into five clusters, ranging from "Basic Needs " to "Premium Selections", enabling targeted marketing. 
