@@ -58,6 +58,7 @@ A heatmap of correlations between numerical variables was generated to explore t
 - **Frequently Purchased and Number of Reviews:** The positive correlation (0.198) indicates that items frequently purchased tend to garner more reviews. This relationship is intuitive but weak, potentially due to the broad categorization of "frequently purchased" items based on a threshold of 50+ purchases in the last month without precise purchase counts.
 
 These correlations reveal both expected and complex relationships within the dataset, emphasizing the nuanced nature of consumer behavior and the multifaceted factors influencing purchasing decisions.
+![Correlation Heatmap](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Correlation%20Heatmap.png)
 
 ### Logistic Regression Analysis
 
@@ -111,7 +112,7 @@ In preparing the dataset for clustering, I made the decision to focus on specifi
 K-means clustering was performed to segment the dataset into distinct groups based on their characteristics. Principal Component Analysis (PCA) was utilized for dimensionality reduction to facilitate visualization of the clusters.
 
 #### Selection of K
-
+![Best K](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Best%20K%20Selection.png)
 The optimal number of clusters (K) was determined by evaluating the Silhouette Score for different numbers of clusters, ranging from 3 to 12. The analysis identified **K=5** as the best choice based on the highest silhouette score obtained.
 
 #### Clustering Metrics
@@ -122,7 +123,7 @@ The clustering model's effectiveness was evaluated using several metrics:
 - **Silhouette Score:** 0.3665299220358104, reflecting moderate cluster cohesion and separation.
 
 ### Cluster Analysis Interpretation
-
+![Clustering Visualization using PCA](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Code-Results_Images/Clustering%20Visual.png)
 The clustering revealed distinct segments within the dataset, each with unique characteristics and market positions:
 
 #### Cluster 0: "Basic Needs, Low Engagement"
