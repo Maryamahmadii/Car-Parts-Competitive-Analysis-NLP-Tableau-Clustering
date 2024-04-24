@@ -147,3 +147,31 @@ The clustering revealed distinct segments within the dataset, each with unique c
 - A good mix of tools, accessories, and body parts highlights a selection for enthusiasts or those seeking high-quality options.
 
 This analysis successfully segmented the car accessories market into distinct clusters, each with unique consumer engagement levels and product offerings, providing valuable insights for targeted marketing and product development strategies.
+
+## Tableau Dashboard Visualizations
+
+As part of the comprehensive analysis, I have included a series of Tableau dashboard images that provide a visual representation of our findings. These dashboards are designed to make the data more accessible and understandable, highlighting key trends and insights within the Amazon car accessories dataset.
+
+### Dashboard Overview
+
+The dashboards are categorized as follows:
+
+- **Review Analysis**: Visualizes the distribution and volume of reviews across different product categories.
+- **Price and Promotion Insights**: Offers a detailed look at how pricing and promotions affect purchase frequency and customer interest.
+- **Delivery Dynamics**: Shows the relationship between product categories and delivery times, highlighting opportunities for improved customer satisfaction.
+
+Each dashboard serves a specific purpose in my analysis, bringing clarity to the complex relationships within the dataset. Below are snapshots of the dashboards used in the analysis:
+
+### Review Analysis - 'Review Spectrum'
+
+![Review Spectrum Dashboard](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Tableau%20images/Top%20Reviewed.png)
+
+### Price and Promotion Insights - 'Market Metrics'
+
+![Market Metrics Dashboard](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Tableau%20images/Market%20Metrics.png)
+
+### Delivery Dynamics - 'Delivery Opportunity'
+
+![Delivery Opportunity Dashboard](https://github.com/Maryamahmadii/Car-Parts-Competitive-Analysis-NLP-Tableau-Clustering/blob/main/Tableau%20images/Delivery%20Opportunity.png)
+
+---
